@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description:
     "Convert your images (JPG, PNG, WebP) into high-quality PDF documents online for free. Batch conversion supported. Fast and secure by Convertifyz.",
   keywords: ["image to pdf", "convert jpg to pdf", "png to pdf", "webp to pdf converter", "convertifyz"],
+  alternates: {
+    canonical: "/image-to-pdf",
+  },
 };
 
 export default function ImageToPdfPage() {

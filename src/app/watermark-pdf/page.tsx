@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description:
     "Add professional text watermarks to your PDF documents online for free. Protect your files with custom stamps. Secure and fast by Convertifyz.",
   keywords: ["watermark pdf", "add text to pdf", "stamp pdf online", "protect pdf document", "convertifyz"],
+  alternates: {
+    canonical: "/watermark-pdf",
+  },
 };
 
 export default function WatermarkPdfPage() {

@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description:
     "Convert PDF pages into high-quality JPG or PNG images online for free. Extract every page as a crisp image instantly. Fast and secure by Convertifyz.",
   keywords: ["pdf to image", "convert pdf to jpg", "pdf to png", "extract images from pdf", "convertifyz"],
+  alternates: {
+    canonical: "/pdf-to-image",
+  },
 };
 
 export default function PdfToImagePage() {

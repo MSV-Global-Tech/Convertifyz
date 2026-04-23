@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description:
     "Bulk convert images between JPG, PNG, and WebP formats online for free. Fast, secure, and lossless batch image conversion by Convertifyz.",
   keywords: ["image converter", "jpg to png", "png to jpg", "webp converter", "batch image conversion", "convertifyz"],
+  alternates: {
+    canonical: "/image-converter",
+  },
 };
 
 export default function ImageConverterPage() {

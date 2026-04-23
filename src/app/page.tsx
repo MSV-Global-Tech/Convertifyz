@@ -10,6 +10,9 @@ export const metadata: Metadata = {
     "compress pdf no loss", "image to pdf converter", "pdf to jpg high quality",
     "batch image converter", "secure file tools", "convertifyz", "MSV Global Tech"
   ],
+  alternates: {
+    canonical: "/",
+  },
 };
 
 import {
