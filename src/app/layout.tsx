@@ -31,6 +31,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png",
+    shortcut: "/icon.png",
+  },
   applicationName: "Convertifyz",
   appleWebApp: {
     capable: true,
