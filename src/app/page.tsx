@@ -2,9 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Convertifyz – All-in-One PDF & Image Tools",
+  title: "Convertifyz – Fast & Secure PDF and Image Tools",
   description:
-    "Free online PDF and image tools by Convertifyz. Merge, split, compress, rotate PDFs. Convert images — no signup required. Fast, secure, and easy.",
+    "The ultimate free suite for all your file needs. Merge PDF, Split PDF, Compress PDF, and Convert Images online by MSV Global Tech. Fast, secure, 100% free, and no registration required.",
+  keywords: [
+    "free pdf tools", "online pdf editor", "merge pdf free", "split pdf online", 
+    "compress pdf no loss", "image to pdf converter", "pdf to jpg high quality",
+    "batch image converter", "secure file tools", "convertifyz", "MSV Global Tech"
+  ],
 };
 
 import {
@@ -329,6 +334,42 @@ export default function HomePage() {
                 <p className="text-[11px] sm:text-sm text-gray-500 leading-relaxed">{f.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── SEO FAQ / Info Section ── */}
+      <section className="py-20 px-4 sm:px-12 lg:px-16 border-t border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-8 text-center">
+            Professional File Tools for Every Workflow
+          </h2>
+          <div className="space-y-10">
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">Is Convertifyz really free?</h3>
+                <p className="text-sm text-gray-500 leading-relaxed">
+                  Yes, Convertifyz is 100% free to use. Our goal is to provide high-quality PDF and image processing tools without the need for expensive subscriptions or software downloads. You can merge, split, and convert files as much as you need without paying a single cent.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">How secure are my documents?</h3>
+                <p className="text-sm text-gray-500 leading-relaxed">
+                  Security is our top priority. All file processing is handled on high-performance, secure servers. Unlike other online tools, we never store your data. Files are automatically and permanently deleted the moment your download is complete.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-purple-50/50 rounded-2xl p-6 sm:p-8 border border-purple-100">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">Ultimate PDF Utility Suite</h3>
+              <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                Managing PDF documents shouldn&apos;t be a hassle. Whether you need to <strong>merge multiple reports</strong> into one file, <strong>split a large document</strong> into individual pages, or <strong>compress a PDF</strong> to meet email size limits, Convertifyz has you covered. Our platform also includes tools to rotate orientations and add protective watermarks to your professional files.
+              </p>
+              <h3 className="text-lg font-bold text-gray-900 mb-4">Fastest Image Converter Online</h3>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                Need to convert images in bulk? Our <strong>Image Converter</strong> supports high-speed batch processing between JPG, PNG, and WebP formats. You can also export PDF pages as high-resolution images or create a single PDF document from a collection of photos instantly.
+              </p>
+            </div>
           </div>
         </div>
       </section>

@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import PdfToImageClient from "./PdfToImageClient";
 
 export const metadata: Metadata = {
-  title: "PDF to Image – Convert PDF Pages to JPG PNG Free",
+  title: "PDF to Image – Convert PDF to JPG or PNG Free",
   description:
-    "Convert PDF pages to JPG or PNG images online for free. High quality PDF to image conversion by Convertifyz.",
+    "Convert PDF pages into high-quality JPG or PNG images online for free. Extract every page as a crisp image instantly. Fast and secure by Convertifyz.",
+  keywords: ["pdf to image", "convert pdf to jpg", "pdf to png", "extract images from pdf", "convertifyz"],
 };
 
 export default function PdfToImagePage() {

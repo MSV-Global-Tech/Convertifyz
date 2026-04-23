@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import RotatePdfClient from "./RotatePdfClient";
 
 export const metadata: Metadata = {
-  title: "Rotate PDF – Rotate PDF Pages Online Free",
+  title: "Rotate PDF Online – Fix PDF Orientation Free",
   description:
-    "Rotate PDF pages to portrait or landscape orientation online for free. Easy PDF rotation tool by Convertifyz.",
+    "Rotate PDF pages to the correct orientation online for free. Permanently fix upside-down or sideways PDFs. Fast and secure by Convertifyz.",
+  keywords: ["rotate pdf", "reorient pdf", "flip pdf online", "fix pdf orientation", "convertifyz"],
 };
 
 export default function RotatePdfPage() {

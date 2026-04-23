@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import WatermarkPdfClient from "./WatermarkPdfClient";
 
 export const metadata: Metadata = {
-  title: "Watermark PDF – Add Text Watermark to PDF Free",
+  title: "Watermark PDF Online – Add Text to PDFs Free",
   description:
-    "Add custom text watermarks to your PDF pages online for free. Protect your documents with Convertifyz.",
+    "Add professional text watermarks to your PDF documents online for free. Protect your files with custom stamps. Secure and fast by Convertifyz.",
+  keywords: ["watermark pdf", "add text to pdf", "stamp pdf online", "protect pdf document", "convertifyz"],
 };
 
 export default function WatermarkPdfPage() {

@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import ImageToPdfClient from "./ImageToPdfClient";
 
 export const metadata: Metadata = {
-  title: "Image to PDF – Convert JPG PNG WebP to PDF Free",
+  title: "Image to PDF – Convert JPG, PNG, WebP to PDF Free",
   description:
-    "Convert JPG, PNG, and WebP images to PDF online for free. Batch convert multiple images into one PDF document instantly.",
+    "Convert your images (JPG, PNG, WebP) into high-quality PDF documents online for free. Batch conversion supported. Fast and secure by Convertifyz.",
+  keywords: ["image to pdf", "convert jpg to pdf", "png to pdf", "webp to pdf converter", "convertifyz"],
 };
 
 export default function ImageToPdfPage() {
