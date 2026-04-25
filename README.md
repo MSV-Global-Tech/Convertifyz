@@ -41,4 +41,4 @@ Convertifyz is built with a "Quick Action" philosophy. The interface is clean, m
 
 ---
 
-### Developed by [MSV Global Tech](https://msvglobaltech.in)
+### Developed by [MSV Global Tech](https://msvglobaltech.com)

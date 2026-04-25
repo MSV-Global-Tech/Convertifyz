@@ -34,10 +34,10 @@ const toolLinks = [
 ];
 
 const companyLinks = [
-  { label: "About", href: "https://msvglobaltech.in" },
-  { label: "Contact", href: "https://msvglobaltech.in" },
-  { label: "Privacy Policy", href: "https://msvglobaltech.in" },
-  { label: "Terms of Service", href: "https://msvglobaltech.in" },
+  { label: "About", href: "https://msvglobaltech.com" },
+  { label: "Contact", href: "https://msvglobaltech.com" },
+  { label: "Privacy Policy", href: "https://msvglobaltech.com" },
+  { label: "Terms of Service", href: "https://msvglobaltech.com" },
 ];
 
 export default function Footer() {
@@ -130,7 +130,7 @@ export default function Footer() {
               { icon: <InstagramIcon size={16} />, href: "https://www.instagram.com/msvglobaltech?igsh=MWRjdHR3bTYwYjVmbg==", label: "Instagram" },
               { icon: <YoutubeIcon size={16} />, href: "https://youtube.com/@msvglobaltech?si=JnMI0wRIM9KexCMx", label: "YouTube" },
               { icon: <TwitterIcon size={16} />, href: "https://x.com/msvglobaltech", label: "Twitter" },
-              { icon: <WebsiteIcon size={16} />, href: "https://msvglobaltech.in", label: "Website" },
+              { icon: <WebsiteIcon size={16} />, href: "https://msvglobaltech.com", label: "Website" },
             ].map((s) => (
               <a
                 key={s.label}

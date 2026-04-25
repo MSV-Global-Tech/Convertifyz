@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import ClientLayout from "@/components/ClientLayout";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://convertifyz.msvglobaltech.in"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://convertifyz.msvglobaltech.com"),
   title: {
     default: "Convertifyz – Fast & Secure PDF and Image Tools",
     template: "%s | Convertifyz",
@@ -48,6 +48,12 @@ export const metadata: Metadata = {
   themeColor: "#7c3aed",
   viewport: "width=device-width, initial-scale=1",
   robots: { index: true, follow: true },
+  verification: {
+    google: "n36OPTrnqmJFAiP4_eB88bR0rsUPxgmJcyqf6lK5ZJQ",
+    other: {
+      "msvalidate.01": [""],
+    },
+  },
 };
 
 const jsonLd = {
@@ -65,12 +71,12 @@ const jsonLd = {
   "publisher": {
     "@type": "Organization",
     "name": "MSV Global Tech",
-    "url": "https://msvglobaltech.in"
+    "url": "https://msvglobaltech.com"
   },
   "author": {
     "@type": "Organization",
     "name": "MSV Global Tech",
-    "url": "https://msvglobaltech.in"
+    "url": "https://msvglobaltech.com"
   },
   "aggregateRating": {
     "@type": "AggregateRating",

@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://convertifyz.msvglobaltech.in/sitemap.xml
+Sitemap: https://convertifyz.msvglobaltech.com/sitemap.xml
