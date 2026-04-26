@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import ClientLayout from "@/components/ClientLayout";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://convertifyz.msvglobaltech.com"),
+  metadataBase: new URL("https://convertifyz.msvglobaltech.com"),
   title: {
     default: "Convertifyz – Fast & Secure PDF and Image Tools",
     template: "%s | Convertifyz",
