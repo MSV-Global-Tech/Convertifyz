@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description: "Free PDF & image tools. Merge, split, compress, convert and more.",
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://convertifyz.msvglobaltech.com/",
   },
   icons: {
     icon: "/icon.png",

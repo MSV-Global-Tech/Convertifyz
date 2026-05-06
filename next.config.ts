@@ -14,6 +14,17 @@ const nextConfig: NextConfig = {
         destination: "https://convertifyz.msvglobaltech.com/:path*",
         permanent: true,
       },
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "www.convertifyz.msvglobaltech.in",
+          },
+        ],
+        destination: "https://convertifyz.msvglobaltech.com/:path*",
+        permanent: true,
+      },
     ];
   },
 };
